@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title> Gamify</title>
+        <link rel="stylesheet" href="{{ url_for ('static',filename ='style1.css') }}">
+    </head>
+    <body>
+        <div class="form"> 
+        <!-- <h1>Top similar games are : </br> </h1> -->
+        <ol class="li">
+            {% if Games %}
+             {%for i in range (0,5)%}
+            <li>
+                {{Games[i]}}
+            </li>
+            {%endfor%}
+        </ol>
+         {%else %}
+        <h2 class="h"> {{game}} </h2>
+        {%endif%}
+    </div>
+    </body>
+    </html>

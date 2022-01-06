@@ -1,0 +1,78 @@
+body{
+	background: url("./Images/1.jpg") no-repeat center center/cover;
+}
+
+.li{
+	color: white;
+	font-size: 2rem;
+	margin: 50px;
+	margin-top: 20px ;
+}
+
+.h{
+	text-align: center;
+	color: whitesmoke;
+	font-size: 20px;
+	margin: 50px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	height:500px ;
+	width: 400px;
+	/* border: ; */
+	align-items: center;
+	margin: auto;
+	/* margin-top: ; */
+	background-color:rgba(0,0,0,0.5) ;
+	box-shadow: insert -5px -5px rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+
+}
+
+.form h1{
+	color: white;
+	font-size: 2rem;
+	border-bottom: 4px solid rgba(255,255,255,0.5);
+	margin: 50px;
+}
+
+
+
+
+.box{
+	padding: 12px;
+	margin: 20px;
+	width: 65%;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 1.0);
+	box-shadow: inset -3px -3px rgba(0, 0, 0, 1.0) ;
+	color: white;
+	font-size: 1rem;
+}
+#submit{
+	padding:10px 20px ;
+	margin-top:50px ;
+	width: 50%;
+	background-color: rgba(0, 0, 0, 1.0);
+	box-shadow: inset -px -px rgba(0, 0, 0, 1.0);
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	font-size: 1rem;
+}
+
+#submit:hover{
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: whitesmoke;
+}
+
+::placeholder{
+	color: white;
+	opacity: 0.7 ;
+}
